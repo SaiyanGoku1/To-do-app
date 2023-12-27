@@ -1,0 +1,13 @@
+.nav {
+    text-align: center;
+}
+
+.delete_goal {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .delete_goal {
+        margin: 10px 0px;
+    }
+}

@@ -1,0 +1,15 @@
+.dark_mode {
+    position: fixed;
+    bottom: 12px;
+    right: 29px;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    padding: 10px;
+}
+
+.light_mode {
+    background: white;
+    color: black;
+}

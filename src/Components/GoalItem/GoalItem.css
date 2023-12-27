@@ -1,0 +1,33 @@
+.goal-item {
+    width: 32rem;
+    margin: 1rem auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.check_item {
+    width: 20px;
+    height: 20px;
+}
+
+.goal_text {
+    margin-right: 20rem;
+    font-size: 1.2rem;
+}
+
+.cancel_goal {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+    .goal_text {
+        margin: 0px 10rem 0px 1rem;
+    }
+    .goal-item {
+        width: 23rem;
+    }
+}

@@ -1,0 +1,29 @@
+.App {
+    min-height: 100vh;
+    background-color: var(--background-color-dark-light);
+    color: var(--font-color-dark-light);
+}
+
+.App h2 {
+    text-align: center;
+    padding-top: 18px;
+}
+
+.goal_input {
+    width: 30rem;
+    max-width: 90%;
+    margin: 3rem auto;
+    padding: 2rem;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: var(--input-color-dark-light);
+}
+
+@media screen and (max-width: 550px) {
+    .goal_input {
+        width: 20rem;
+    }
+    .goal_input button{
+        width: 100%;
+    }
+}
